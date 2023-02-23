@@ -8,7 +8,7 @@
 */
 
 :root {
-  --bg: #f66802;
+  --bg: #f56d00;/*#f66802;*/
 }
 :root {
 	--darkStr:#e85900;
@@ -2218,12 +2218,12 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			border-radius: 5%;
 			overflow: hidden;
 		}
 
 			.image.avatar img {
-				border-radius: 100%;
+				border-radius: 5%;
 				display: block;
 				width: 100%;
 			}
