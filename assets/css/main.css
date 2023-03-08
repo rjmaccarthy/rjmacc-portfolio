@@ -1734,12 +1734,12 @@ input, select, textarea {
 
 		}
 
-/* Container */
+/* Container THIS IS WHERE YOU CAN CHANGE ENTIRE SIZE*/ 
 
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4.5em);
-		width: 45em;
+		width: 50em;
 	}
 
 		.container.xsmall {
@@ -2250,6 +2250,25 @@ input, select, textarea {
 			padding-left: 0.25em;
 		}
 
+		ol.alt {
+			list-style: decimal;
+			padding-left: 1.25em;
+		}
+
+			ol.alt li {
+				border-top: solid 2px #f4f4f4;
+				padding: 0.5em 0;
+			}
+			ol.alt li:before {
+				border-top: solid 2px #f4f4f4;
+			}
+
+				ol.alt li:first-child {
+					border-top: 0;
+					padding-top: 0;
+				}
+
+
 	ul {
 		list-style: disc;
 		margin: 0 0 2.25em 0;
@@ -2474,7 +2493,7 @@ input, select, textarea {
 		padding: 0.35em 0 0 3.5em;
 		position: relative;
 		vertical-align: top;
-		width: 30%;
+		width: 32%;
 	}
 
 		ul.skill-icons li:before{
@@ -2821,7 +2840,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: center;
 		top: 0;
-		width: 23em;
+		width: 18em;
 		right: 0;
 	}
 
@@ -2949,7 +2968,7 @@ input, select, textarea {
 
 	#wrapper {
 		background: #fff;
-		padding-right: 23em;
+		padding-right: 18em;
 	}
 
 /* Main */
@@ -3013,7 +3032,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 21em;
+				width: 15em;
 			}
 
 				#header > header {
@@ -3027,7 +3046,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 21em;
+				padding-right: 15em;
 			}
 
 		/* Main */
@@ -3051,13 +3070,13 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 20em;
+				width: 13em;
 			}
 
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 20em;
+				padding-right: 13em;
 			}
 
 	}
@@ -3221,10 +3240,10 @@ input, select, textarea {
 					}
 
 			body.header-visible #wrapper, body.header-visible #titleBar {
-				-moz-transform: translateX(-23em);
-				-webkit-transform: translateX(-23em);
-				-ms-transform: translateX(-23em);
-				transform: translateX(-23em);
+				-moz-transform: translateX(-18em);
+				-webkit-transform: translateX(-18em);
+				-ms-transform: translateX(-18em);
+				transform: translateX(-18em);
 			}
 
 			body.header-visible #header {
