@@ -2286,10 +2286,25 @@ input, select, textarea {
 
 			ul.alt li {
 				border-top: solid 2px #f4f4f4;
-				padding: 0.5em 0;
+				
 			}
 
 				ul.alt li:first-child {
+					border-top: 0;
+					padding-top: 0;
+				}
+
+				ul.contact{
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.contact li {
+				padding-top: 0.75em;
+				
+			}
+
+				ul.contact li:first-child {
 					border-top: 0;
 					padding-top: 0;
 				}
