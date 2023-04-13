@@ -1260,6 +1260,15 @@ input, select, textarea {
 				width:100%;
 			}
 
+			.text-small{
+				font-size: 3vw;
+			}
+
+			.list-line{
+				width:100%;
+			}
+
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2528,14 +2537,14 @@ input, select, textarea {
 	ul.skill-icons li, ul.style-icons li{
 		text-decoration: none;
 		display: inline-block;
-		margin: 0 0 1.6875em 0;
+		margin: -0.5 0 1.6875em 0;
 		padding: 0.35em 0 0 3.5em;
 		position: relative;
 		vertical-align: top;
 		width: 32%;
 	}
 
-		ul.skill-icons li:before{
+		ul.skill-icons li::before{
 			background: var(--bg);
 			border-radius: 100%;
 			color: #ffffff;
@@ -2549,7 +2558,7 @@ input, select, textarea {
 			width: 2.5em;
 		}
 
-		ul.style-icons li:before{
+		ul.style-icons li::before{
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				display: inline-block;
@@ -2562,7 +2571,7 @@ input, select, textarea {
 				font-weight: 400;
 			}
 
-		ul.style-icons li:before {
+		ul.style-icons li::before {
 			background: #a5a5a5;
 			border-radius: 100%;
 			color: #ffffff;
