@@ -2276,7 +2276,7 @@ input, select, textarea {
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding: 0.5em 0;
 		}
 
 		ul.alt {
@@ -2300,7 +2300,7 @@ input, select, textarea {
 		}
 
 			ul.contact li {
-				padding-top: 0.75em;
+				padding-top: 0.3em;
 				
 			}
 
@@ -2313,7 +2313,17 @@ input, select, textarea {
 			direction:rtl;
 		}
 
-			ul.skill li {
+			ul.skill1 li {
+				border-top: solid 2px #f4f4f4;
+				padding: 0.5em 0;
+			}
+
+				ul.skill1 li:first-child {
+					border-top: 0;
+					padding-top: 0;
+				}
+
+				ul.skill li {
 				border-top: solid 2px #f4f4f4;
 				padding: 0.5em 0;
 			}
@@ -2321,7 +2331,7 @@ input, select, textarea {
 				ul.skill li:first-child {
 					border-top: 0;
 					padding-top: 0;
-				}
+				}			
 
 	dl {
 		margin: 0 0 2.25em 0;
