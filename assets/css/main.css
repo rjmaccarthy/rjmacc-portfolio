@@ -36,6 +36,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
 body {
 	line-height: 1;
 }
@@ -153,6 +154,15 @@ input, select, textarea {
 			text-decoration: line-through;
 			color: #777;
 	}
+
+	figcaption{
+	margin: 0 0 2.25em 0;
+	text-align: center;
+	font-style: italic;
+	font-size: 0.8em;
+
+}
+
 
 /* Headings */
 	h1, h2, h3, h4, h5, h6 {
